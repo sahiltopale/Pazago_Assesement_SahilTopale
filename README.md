@@ -1,91 +1,95 @@
-🌦️ Weather Agent Chat App
+🌤️ Weather Assistant Chat Application
 
-A simple chat-based web application that allows users to ask weather-related questions and receive responses from a backend agent API.
-This project was built as part of a technical assessment to demonstrate frontend development, API handling, and UI design skills.
+A modern and interactive Weather Assistant Chat UI built as part of the Pazago Frontend Assessment.
+The application allows users to ask weather-related questions in a conversational chat interface with a strong focus on UI/UX, responsiveness, real-time interaction, and API integration.
+
+🔗 Live Demo:
+https://pazago-assesement-sahil-topale.vercel.app/
+
+📂 GitHub Repository:
+https://github.com/sahiltopale/Pazago_Assesement_SahilTopale
 
 🚀 Features
 
-💬 Chat-style interface for user–assistant interaction
+💬 Chat-style interface (User messages on right, Assistant on left)
 
-🌤️ Weather-focused assistant responses
+🎨 Clean, modern UI with message bubbles and smooth animations
 
-🔄 Real-time message rendering
+🌙 Dark / Light mode toggle
 
-🧪 Graceful fallback response when API is unavailable
+🕒 Real-time date & time displayed with messages
 
-🎨 Clean and minimal UI
+🔄 Auto-scroll to latest message
 
-⌨️ Supports sending messages via Enter key
+⌨️ Send message using Enter key
+
+📱 Fully responsive layout
+
+🌐 Live API integration for weather responses
 
 🛠️ Tech Stack
 
-Frontend: React (Vite)
+Frontend: React + Vite
 
-Styling: Tailwind CSS
+Styling: Custom CSS
 
-API Communication: Fetch API
+API: Weather Agent API
 
-State Management: React Hooks
+Deployment: Vercel
 
-📂 Project Structure
+Version Control: Git & GitHub
+
+📦 Project Structure
 src/
-│── components/
-│ ├── ChatWindow.jsx
-│ └── ChatInput.jsx
-│
-│── App.jsx
-│── main.jsx
+├── components/
+│ └── ChatBox.jsx
+├── services/
+│ └── api.js
+├── index.css
+├── App.jsx
+└── main.jsx
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone <repository-url>
-cd weather-chat
+⚙️ Setup Instructions (Local)
 
-2️⃣ Install dependencies
+Clone the repository
+
+git clone https://github.com/sahiltopale/Pazago_Assesement_SahilTopale.git
+
+Navigate into the project folder
+
+cd Pazago_Assesement_SahilTopale
+
+Install dependencies
+
 npm install
 
-3️⃣ Run the application
+Run the development server
+
 npm run dev
 
-The app will be available at:
+🎯 Assessment Coverage
 
-http://localhost:5173
+This project demonstrates:
 
-🔌 API Integration
+✅ Frontend development skills using React
 
-The application sends POST requests to the following endpoint:
+✅ Clean component-based architecture
 
-/api/webapp/agent/test-agent
+✅ Strong UI/UX design for chat-based applications
 
-Request Body:
-{
-"prompt": "What's the weather in Mumbai?",
-"stream": false
-}
+✅ Real-time interaction handling
 
-⚠️ API Availability Note (Important)
+✅ Proper API integration
 
-During development and testing, the API endpoint occasionally returned a 404 (Not Found) response.
+✅ Responsive and accessible design
 
-To ensure uninterrupted user experience and proper UI demonstration:
+✅ Deployment and version control best practices
 
-A fallback demo response is displayed when the API request fails
+👤 Author
 
-This prevents UI breakage and allows smooth interaction flow
+Sahil Topale
+Frontend / Full Stack Developer
 
-Error handling is intentionally user-friendly and non-blocking
+GitHub: https://github.com/sahiltopale
 
-Example fallback response:
-🌤️ Demo Response: Mumbai is warm and humid today with a chance of light rain.
-
-This approach ensures the frontend remains fully functional even when the backend service is unavailable.
-
-🎯 Assumptions & Notes
-
-The API endpoint is assumed to be provided and managed externally.
-
-UI prioritizes clarity, usability, and assessment requirements.
-
-Error handling focuses on maintaining UX rather than detailed debugging output.
-
-Code structure is kept simple and readable for easy evaluation.
+Portfolio-ready assessment submission
