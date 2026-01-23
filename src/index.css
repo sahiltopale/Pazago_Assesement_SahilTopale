@@ -245,3 +245,26 @@ body.dark .timestamp {
     border-radius: 14px;
   }
 }
+
+/* ===== Mobile-only fix ===== */
+@media (max-width: 480px) {
+  .chat-wrapper {
+    width: 100%;
+    height: 100dvh; /* dynamic viewport height (fixes mobile browser UI) */
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .chat-body {
+    padding-bottom: 80px; /* space for input box */
+  }
+
+  .chat-input {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    border-radius: 0;
+  }
+}
