@@ -1,31 +1,37 @@
 🌤️ Weather Assistant Chat Application
 
-A modern and interactive Weather Assistant Chat UI built as part of the Pazago Frontend Assessment.
-The application allows users to ask weather-related questions in a conversational chat interface with a strong focus on UI/UX, responsiveness, real-time interaction, and API integration.
+A modern, interactive Weather Assistant Chat UI built as part of the Pazago Frontend Assessment.
+The application enables users to ask weather-related questions through a conversational chat interface, with strong emphasis on UI/UX, responsiveness, real-time interaction, and API integration.
 
-🔗 Live Demo:
-https://pazago-assesement-sahil-topale.vercel.app/
+🔗 Live Demo
 
-📂 GitHub Repository:
-https://github.com/sahiltopale/Pazago_Assesement_SahilTopale
+👉 https://pazago-assesement-sahil-topale.vercel.app/
+
+📂 GitHub Repository
+
+👉 https://github.com/sahiltopale/Pazago_Assesement_SahilTopale
 
 🚀 Features
 
-💬 Chat-style interface (User messages on right, Assistant on left)
+💬 Chat-style interface (User messages on the right, Assistant on the left)
 
-🎨 Clean, modern UI with message bubbles and smooth animations
+🎨 Clean & modern UI with message bubbles and smooth interactions
 
 🌙 Dark / Light mode toggle
 
-🕒 Real-time date & time displayed with messages
+🕒 Real-time date & time displayed with every message
 
-🔄 Auto-scroll to latest message
+🔄 Auto-scroll to the latest message
 
-⌨️ Send message using Enter key
+⌨️ Send messages using Enter key
 
-📱 Fully responsive layout
+📱 Fully responsive design (mobile, tablet & desktop)
 
 🌐 Live API integration for weather responses
+
+📤 Export chat history
+
+👍👎 Message reactions for assistant replies
 
 🛠️ Tech Stack
 
@@ -49,41 +55,42 @@ src/
 ├── App.jsx
 └── main.jsx
 
-⚙️ Setup Instructions (Local)
-
-Clone the repository
-
+⚙️ Setup Instructions (Local Development)
+1️⃣ Clone the repository
 git clone https://github.com/sahiltopale/Pazago_Assesement_SahilTopale.git
 
-Navigate into the project folder
-
+2️⃣ Navigate into the project folder
 cd Pazago_Assesement_SahilTopale
 
-Install dependencies
-
+3️⃣ Install dependencies
 npm install
 
-Run the development server
-
+4️⃣ Run the development server
 npm run dev
+
+The application will start on:
+
+http://localhost:5173
 
 🎯 Assessment Coverage
 
 This project demonstrates:
 
-✅ Frontend development skills using React
+✅ Strong frontend development skills using React
 
 ✅ Clean component-based architecture
 
-✅ Strong UI/UX design for chat-based applications
+✅ Attention to UI/UX in chat-based applications
 
 ✅ Real-time interaction handling
 
 ✅ Proper API integration
 
-✅ Responsive and accessible design
+✅ Responsive & accessible design principles
 
-✅ Deployment and version control best practices
+✅ Deployment using Vercel
+
+✅ Best practices with Git & GitHub
 
 👤 Author
 
